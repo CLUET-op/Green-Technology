@@ -1,4 +1,4 @@
-name: "Crude-oil enricher"
+name: "Ozone Dissociator"
 type: "GenericCrafter"
 description: "Dissociate Ozone into Oxygen"
 liquidCapacity: 50
