@@ -2,7 +2,7 @@ name: "Crude-oil enricher"
 type: "GenericCrafter"
 description: "Loding"
 liquidCapacity: 50
-outputLiquid: Crude-oil/0.17
+outputLiquid: oxygen/0.17
 hasPower: true
 size: 2
 hasLiquids: true
@@ -11,7 +11,7 @@ updateEffect: "smeltsmoke"
 consumes: {
 	power: 0.8
 	liquid: {
-		liquid: "oil"
+		liquid: "ozone"
 		amount: 0.25
 		booster: true
 	}
