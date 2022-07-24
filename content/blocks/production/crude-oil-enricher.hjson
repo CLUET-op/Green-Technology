@@ -2,7 +2,7 @@ name: "Crude-oil enricher"
 type: "GenericCrafter"
 description: "Loding"
 liquidCapacity: 50
-outputLiquid: crude-oil/0.17
+outputLiquid: Crude-oil/0.17
 hasPower: true
 size: 2
 hasLiquids: true
