@@ -1,8 +1,8 @@
 name: "Crude-oil enricher"
 type: "GenericCrafter"
-description: "Loding"
+description: "Dissociate Ozone into Oxygen"
 liquidCapacity: 50
-outputLiquid: oxygen/0.17
+outputLiquid: oxygen/0.5
 hasPower: true
 size: 2
 hasLiquids: true
@@ -12,13 +12,13 @@ consumes: {
 	power: 0.8
 	liquid: {
 		liquid: "ozone"
-		amount: 0.25
+		amount: 0.4
 		booster: true
 	}
 }
 requirements: [
 	copper/50
-	lead/40
+	graphite/40
 	silicon/35
 ]
 category: "crafting"
