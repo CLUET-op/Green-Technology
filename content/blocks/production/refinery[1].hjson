@@ -1,0 +1,28 @@
+name: "Gasoline Refinery [1]"
+type: "GenericCrafter"
+description: "Vaporises Gasoline from Crude-oil"
+liquidCapacity: 70
+outputLiquid: {
+	liquid: gasoline/0.25
+	}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 50
+updateEffect: smeltsmoke
+consumes: {
+	power: 1.6
+	liquid: {
+			liquid: oil/0.1
+		}
+	}
+requirements: [
+	lead/40
+	graphite/30
+	silicon/20
+	copper/30
+	]
+category: crafting
+research: spore-press
+idleSound: respawning
+idleSoundVolume: 0.5

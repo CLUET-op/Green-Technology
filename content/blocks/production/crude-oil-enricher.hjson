@@ -1,0 +1,22 @@
+name: "Crude-oil Enricher"
+type: "GenericCrafter"
+description: "Purifies Crude-oil for Refining"
+liquidCapacity: 30
+outputLiquid: crude-oil/0.5
+outputItem: sand/0.25
+hasPower: true
+size: 2
+hasLiquids: true
+craftTime: 10
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 0.8
+	liquid: oil/0.5
+}
+requirements: [
+	copper/50
+	lead/40
+	silicon/30
+]
+category: "crafting"
+research: "melter"
