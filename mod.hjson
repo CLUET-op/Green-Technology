@@ -1,10 +1,10 @@
 {
-  name: More Processing
-  displayName: "More Processing"
-  version: "1.0"
+  name: Green Tech
+  displayName: "Green-Technologies"
+  version: "0.2"
   description:
     '''
-    A mod that adds more processing of materials in game.
+    A mod that adds some Future Green tech into the Game.
 Currently WIP, Balancing changes required,so new ideas of balancing
  and Content is appreciated.
     '''
