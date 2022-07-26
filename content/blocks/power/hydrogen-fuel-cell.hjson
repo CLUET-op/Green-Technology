@@ -1,0 +1,20 @@
+type: "NuclearReactor"
+name: "Hydrogen Fuel Cell"
+description: "Combines Hydrogen and Oxygen and provides you the free Gibbs Energy of Reaction."
+itemCapacity: 20
+size: 5
+hasLiquids: true
+powerProduction: 100
+generateEffect: "smeltsmoke"
+consumes: {
+	liquid: {
+                  hydrogen/1
+                  oxygen/0.5
+}
+requirements: [
+	titanium/90
+	copper/250
+	silicon/105
+]
+category: "power"
+research: "thermal-generator"
