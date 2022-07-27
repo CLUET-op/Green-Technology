@@ -1,0 +1,21 @@
+name: "Hydrogen Compressor"
+type: "GenericCrafter"
+description: "Compress Hydrogen into Beryllium Cylinders"
+liquidCapacity: 20
+hasPower: true
+size: 2
+hasLiquids: true
+craftTime: 10
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 0.3
+	liquid: hydrogen/1
+	items: {items: [beryllium/3]}
+}
+outputItem: hydrogen-cylinder/1
+requirements: [
+	beryllium/15
+	graphite/5
+]
+category: "crafting"
+research: "differential-generator"
