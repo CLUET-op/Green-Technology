@@ -7,12 +7,10 @@ hasLiquids: true
 powerProduction: 100
 generateEffect: "smeltsmoke"
 consumes: {
-	liquid: {
-        liquid: [
+	liquid:[
             oxygen/1
             hydrogen/2
         ]
-    }
 }
 requirements: [
 	titanium/90
