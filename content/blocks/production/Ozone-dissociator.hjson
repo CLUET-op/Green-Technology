@@ -13,7 +13,7 @@ consumes: {
 	liquid: {
 		liquid: "ozone"
 		amount: 0.4
-		booster: true
+		booster: false 
 	}
 }
 requirements: [
