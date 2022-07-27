@@ -11,9 +11,8 @@ consumes: {
             liquid :hydrogen
             amount :2
               }
-          items:
-{
-items: oxygen-cylinder
+          items:{
+          items: oxygen-cylinder
           amount:1
 }
 }
