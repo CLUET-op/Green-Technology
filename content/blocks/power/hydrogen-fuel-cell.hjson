@@ -13,6 +13,7 @@ consumes: {
             hydrogen/2
         ]
     }
+}
 requirements: [
 	titanium/90
 	copper/250
