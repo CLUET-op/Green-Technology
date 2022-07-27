@@ -1,0 +1,15 @@
+{
+    displayName : Xsoverd Remake
+    version : alpha 1.4
+    author : Router Xdd
+    name : xsoverdr
+    
+    description:
+        
+        '''
+        I make remake of my first mod on 5.0 (5.0 version of mod bad)
+        '''
+
+    minGameVersion : 136
+    dependencies : []
+}
