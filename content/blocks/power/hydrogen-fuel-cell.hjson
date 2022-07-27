@@ -10,10 +10,9 @@ consumes: {
           items:{
           items:[ oxygen-cylinder
                  amount:0.2]
-               [hydrogen-cylinder 
-                 amount:0.4
- ]
 
+               [hydrogen-cylinder 
+                 amount:0.4 ]
 }
 }
 requirements: [
