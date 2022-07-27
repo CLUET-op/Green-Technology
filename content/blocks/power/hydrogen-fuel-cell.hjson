@@ -8,7 +8,8 @@ powerProduction: 100
 generateEffect: "smeltsmoke"
 consumes: {
         liquid : {
-            liquid :hydrogen/2
+            liquid :hydrogen
+            amount :2
               }
           items: oxygen-cylinder/1
 }
