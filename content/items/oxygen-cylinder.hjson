@@ -1,0 +1,5 @@
+name: "Oxygen Cylinder"
+description: "The same Oxygen,but in a Cylinder to avoid [red]Doomsday"
+cost: 0
+flammability: 2
+explosiveness: 1
