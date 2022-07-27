@@ -11,7 +11,11 @@ consumes: {
             liquid :hydrogen
             amount :2
               }
-          items: oxygen-cylinder/1
+          items:
+{
+items: oxygen-cylinder
+          amount:1
+}
 }
 requirements: [
 	titanium/90
