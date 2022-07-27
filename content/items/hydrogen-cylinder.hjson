@@ -1,0 +1,6 @@
+name: "Hydrogen Cylinder"
+description: "The same Hydrogen,but in a Cylinder to avoid leakage"
+cost: 0
+flammability: 5
+explosiveness: 3
+charge:0.5
