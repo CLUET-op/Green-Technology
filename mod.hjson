@@ -10,6 +10,4 @@ Currently WIP, Balancing changes required,so new ideas of balancing
     '''
   author: "[green] CLUET"
   minGameVersion: "136"
-dependencies: ["multi-crafter"]
-
 }
