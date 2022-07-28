@@ -1,6 +1,6 @@
 type: "SingleTypeGenerator"
 name: "Hydrogen Fuel Cell"
-description: "Combines Hydrogen and Oxygen and provides you the free Gibbs Energy of Reaction."
+description: "Dissociates Hydrogen and provides you the free Gibbs Energy of Reaction."
 itemCapacity: 20
 size: 3
 hasLiquids: true
@@ -10,7 +10,6 @@ generateEffect: "smeltsmoke"
 consumes: {
          items : {
             items : [
-                oxygen-cylinder/1
                 hydrogen-cylinder/2
             ]
         }
