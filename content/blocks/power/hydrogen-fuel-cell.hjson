@@ -4,6 +4,7 @@ description: "Combines Hydrogen and Oxygen and provides you the free Gibbs Energ
 itemCapacity: 20
 size: 3
 hasLiquids: true
+itemduration:3
 powerProduction: 450
 generateEffect: "smeltsmoke"
 consumes: {
@@ -15,9 +16,9 @@ consumes: {
         }
 }
 requirements: [
-	titanium/90
-	copper/250
-	silicon/105
+	graphite/15
+	beryllium/50
+	silicon/25
 ]
 category: "power"
 research: "thermal-generator"
