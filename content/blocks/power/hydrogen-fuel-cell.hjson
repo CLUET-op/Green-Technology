@@ -4,8 +4,8 @@ description: "Combines Hydrogen and Oxygen and provides you the free Gibbs Energ
 itemCapacity: 20
 size: 3
 hasLiquids: true
-powerProduction: 350
-generateEffect: "smeltsmoke"
+poweroutput: 350
+generateEffe "smeltsmoke"
 consumes: {
          items : {
             items : [
