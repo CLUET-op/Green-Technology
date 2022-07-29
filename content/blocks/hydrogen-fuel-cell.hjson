@@ -1,0 +1,23 @@
+type: multicraft.MultiCrafter
+recipes: 
+[
+{
+  input: oxygen/0.1
+  output: {
+    items:  oxygen-cylinder/1
+    power: 0.2
+    icon: hydrogen-cylinder
+  }
+  craftTime: 60
+}
+{
+  input: hydrogen/0.1
+  output: {
+    items: [
+      hydrogen-cylinder/1
+    ]
+      power: 0.2
+   }
+  craftTime: 60
+}
+]
