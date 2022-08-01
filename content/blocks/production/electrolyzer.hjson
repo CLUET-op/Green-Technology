@@ -13,8 +13,8 @@ consumes: {
 }
 results:{
 results:
-[ hydrogen-cylinder/2]
-[oxygen-cylinder/1]
+[sand/2]
+[thorium/10]
 }
 requirements: [
 copper/90
