@@ -1,2 +1,26 @@
 name:"Electrolyzer"
 type: "seperator"
+description: ""
+liquidCapacity: 10
+hasPower: true
+size: 2
+hasLiquids: true
+craftTime: 30
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 0.5
+	liquid: water/0.1
+}
+results:{
+results:
+[ hydrogen-cylinder/2]
+[oxygen-cylinder/1]
+}
+requirements: [
+copper/90
+lead/50
+graphite/20
+silicon/15
+]
+category: "crafting"
+research: "differential-generator"
