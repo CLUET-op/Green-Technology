@@ -12,8 +12,7 @@ floating: true
 size:3
 activeSound: beam
 buildVisibility: shown
-
-generateEffect: "smeltsmoke"
+generateEffect: "generatespark"
 consumes: {
          items : {
             items : [
