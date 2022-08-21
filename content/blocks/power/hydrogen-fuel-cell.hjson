@@ -23,6 +23,6 @@ requirements: [
 	graphite/15
 	beryllium/50
 	silicon/25
-         ]
+]
 category: "power"
 research: "thermal-generator"
