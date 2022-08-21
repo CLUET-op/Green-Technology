@@ -1,23 +1,25 @@
 type: "SingleTypeGenerator"
 name: "Hydrogen Fuel Cell"
-description: "Dissociates Hydrogen and provides you the free Gibbs Energy of Reaction
+description:"Dissociates Hydrogen and provides you the free Gibbs Energy of Reaction
 hasItems: true
 itemCapacity: 10
 destructible: true 
 health: 800
 baseExplosiveness: 0.2
 floating: true
-size:3
+size: 3
 activeSound: beam
 buildVisibility: shown
 generateEffect: "generatespark"
-consumes:{items :{items:[
-                hydrogen-cylinder/2
-                oxygen-cylinder/1
-]
+consumes: {
+      items: {
+    items: [
+      hydrogen-cylinder/2
+      oxygen-cylinder/1
+    ]
+  }
 }
-}
-requirements:[
+requirements: [
 	graphite/15
 	beryllium/50
 	silicon/25
