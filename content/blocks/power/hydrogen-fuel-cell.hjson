@@ -1,4 +1,4 @@
-type:"SingleTypeGenerator"
+type:"ConsumeGenerator"
 name:"Hydrogen Fuel Cell"
 description:"Dissociates Hydrogen and provides you the free Gibbs Energy of Reaction"
 hasItems:true
