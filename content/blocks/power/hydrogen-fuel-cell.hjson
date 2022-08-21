@@ -10,7 +10,7 @@ floating:true
 size:3
 activeSound:beam
 buildVisibility:shown
-outputpower: 480
+powerProduction:480
 generateEffect:"generatespark"
 consumes:{
       items:{
