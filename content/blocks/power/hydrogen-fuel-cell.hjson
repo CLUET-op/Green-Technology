@@ -3,7 +3,7 @@ name: "Hydrogen Fuel Cell"
 description: "Dissociates Hydrogen and provides you the free Gibbs Energy of Reaction."
 itemCapacity: 20
 size: 3
-hasLiquids: true
+hasItems: true
 itemduration:3
 powerProduction: 450
 generateEffect: "smeltsmoke"
@@ -11,6 +11,7 @@ consumes: {
          items : {
             items : [
                 hydrogen-cylinder/2
+                oxygen-cylinder/1
             ]
         }
 }
