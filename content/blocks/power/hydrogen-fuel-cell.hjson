@@ -1,6 +1,6 @@
 type:"SingleTypeGenerator"
 name:"Hydrogen Fuel Cell"
-description:"Dissociates Hydrogen and provides you the free Gibbs Energy of Reaction
+description:"Dissociates Hydrogen and provides you the free Gibbs Energy of Reaction"
 hasItems:true
 itemCapacity:10
 destructible:true 
