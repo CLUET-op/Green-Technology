@@ -11,15 +11,15 @@ size:3
 activeSound: beam
 buildVisibility: shown
 generateEffect: "generatespark"
-consumes: {
-         items : {
-            items : [
+consumes:{
+         items :{
+            items :[
                 hydrogen-cylinder/2
                 oxygen-cylinder/1
-            ]
-        }
+]
 }
-requirements: [
+}
+requirements:[
 	graphite/15
 	beryllium/50
 	silicon/25
