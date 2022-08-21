@@ -5,12 +5,13 @@ hasItems:true
 itemCapacity:10
 destructible:true 
 health:800
-baseExplosiveness:0.2
+baseExplosiveness:50
 floating:true
 size:3
 activeSound:beam
 buildVisibility:shown
-powerProduction:480
+powerProduction:6
+itemDuration: 60
 generateEffect:"generatespark"
 consumes:{
       items:{
