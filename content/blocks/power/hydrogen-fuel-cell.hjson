@@ -18,7 +18,7 @@ consumes:{
       liquds:{
     liquids:[
       hydrogen/0.2
-      oxygen/1
+      oxygen/0.1
     ]
   }
 }
