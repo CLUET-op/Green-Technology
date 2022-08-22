@@ -15,7 +15,7 @@ powerProduction:6
 itemDuration: 60
 generateEffect:"generatespark"
 consumes:{
-      liquds:{
+      liquids:{
     liquids:[
       hydrogen/0.2
       oxygen/0.1
