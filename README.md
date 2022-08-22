@@ -1,5 +1,5 @@
 # Hi,there Welcome
-Well it's my first mod so I may have done something wrong.
+Well it's my first mod so your feedback is Precious.
 # ABOUT 
 This mod is focused on adding new factories,items, liquids which are Environment Friedly. If you are turret lover the I'll be adding some turret but after i add all the items, so it may be dissappointing 
 [![Stars](https://img.shields.io/github/stars/CLUET-op/Green-Technology?label=Please%20Star%20Me%21&style=social)]()
