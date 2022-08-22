@@ -1,31 +1,30 @@
 type:"ConsumeGenerator"
-name:"Hydrogen Fuel Cell"
-description:"Dissociates Hydrogen and provides you the free Gibbs Energy of Reaction"
+name:"Hydrogen Cell"
+description:"Burns Hydrogen and provide you tremendous energy of the Reaction"
 hasItems:true
 itemCapacity:10
 hasPower: true 
 destructible:true 
-health:800
-baseExplosiveness:50
+health:450
+baseExplosiveness:200
 floating:true
 size:3
-activeSound:beam
+activeSound: explosion
 buildVisibility:shown
-powerProduction:6
+powerProduction:15
 itemDuration: 60
-generateEffect:"generatespark"
+generateEffect: rocketSmokeLarge
 consumes:{
       liquids:{
     liquids:[
-      hydrogen/0.2
-      oxygen/0.1
+      hydrogen/0.1
     ]
   }
 }
 requirements:[
-	graphite/15
-	beryllium/50
-	silicon/25
+	graphite/70
+	beryllium/200
+	silicon/50
 ]
 category:"power"
 research:"thermal-generator"
