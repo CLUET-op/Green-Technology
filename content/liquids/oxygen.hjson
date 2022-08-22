@@ -2,6 +2,7 @@ name: "oxygen"
 description: "Just Oxygen"
 cost: 0
 color: "ADD8E6"
-flammability: 0.9
+flammability: 0.6
 explosiveness: 0.4
-viscosity:1.5
+viscosity:0.6
+temperature: 0.2
