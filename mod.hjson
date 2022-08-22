@@ -1,12 +1,11 @@
 {
   name: Green Tech
-  displayName: "Green-Technologies"
+  displayName: "[green]Green-Technologies"
   version: "0.4"
   description:
     '''
     A mod that adds some Future Green tech into the Game.
-Currently WIP, Balancing changes required,so new ideas of balancing
- and Content is appreciated.
+Balancing changes required,so balancing suggestions are welcomed 
     '''
   author: "[green] CLUET"
   minGameVersion: "136"
