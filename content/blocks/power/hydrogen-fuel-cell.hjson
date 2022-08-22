@@ -17,8 +17,8 @@ generateEffect:"generatespark"
 consumes:{
       liquds:{
     liquids:[
-      hydrogen-cylinder/2
-      oxygen-cylinder/1
+      hydrogen/0.2
+      oxygen/1
     ]
   }
 }
