@@ -1,0 +1,17 @@
+name:"Coal Extractor"
+description :"Extract Coal from graphite, meanwhile losing some carbon in Atmosphere"
+type: GenericCrafter
+size: 2
+craftTime: 90
+craftEffect: pulverizeMedium
+consumes: {
+  item: graphite/2
+}
+outputItem: coal/3
+requirements: [
+  berrylium/60
+  graphite/25
+  silicon/15
+]
+category: crafting
+research: graphite-press
