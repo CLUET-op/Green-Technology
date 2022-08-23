@@ -10,7 +10,7 @@ consumes: {
 }
 outputItem: coal/3
 requirements: [
-  berrylium/60
+  beryllium/60
   graphite/25
   silicon/15
 ]
