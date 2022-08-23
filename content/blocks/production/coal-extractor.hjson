@@ -1,5 +1,5 @@
 name:"Coal Extractor"
-description :"Extract Coal from graphite, meanwhile losing some carbon in Atmosphere"
+description :"Extract Coal from graphite, meanwhile losing some carbon in Environment"
 type: GenericCrafter
 size: 2
 craftTime: 90
@@ -10,7 +10,7 @@ consumes: {
 }
 outputItem: coal/3
 requirements: [
-  beryllium/60
+  beryllium/55
   graphite/25
   silicon/15
 ]
