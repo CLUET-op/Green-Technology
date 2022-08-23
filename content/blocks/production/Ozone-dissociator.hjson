@@ -1,25 +1,25 @@
 name: "Ozone Dissociator"
 type: "GenericCrafter"
-description: "Dissociate Ozone into Oxygen"
+description: "Dissociate Ozone into Oxygen using UV light."
 liquidCapacity: 50
-outputLiquid: oxygen/0.5
+outputLiquid: oxygen/0.15
 hasPower: true
 size: 2
 hasLiquids: true
-craftTime: 10
+craftTime: 1
 updateEffect: "smeltsmoke"
 consumes: {
-	power: 0.8
+	power: 1
 	liquid: {
 		liquid: "ozone"
-		amount: 0.4
+		amount: 0.1
 		booster: false 
 	}
 }
 requirements: [
-	copper/50
-	graphite/40
-	silicon/35
+	beryllium/40
+	graphite/25
+	silicon/15
 ]
 category: "crafting"
 research: "melter"
