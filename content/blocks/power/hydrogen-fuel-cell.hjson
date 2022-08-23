@@ -9,7 +9,7 @@ health:450
 baseExplosiveness:200
 floating:true
 size:3
-activeSound: explosion
+activeSound: "electricHum"
 buildVisibility:shown
 powerProduction:15
 itemDuration: 60
