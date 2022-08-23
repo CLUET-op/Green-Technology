@@ -5,7 +5,8 @@ size: 2
 craftTime: 90
 craftEffect: pulverizeMedium
 consumes: {
-  item: graphite/2
+  item: graphite
+  amount:2
 }
 outputItem: coal/3
 requirements: [
