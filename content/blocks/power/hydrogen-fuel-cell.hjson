@@ -17,7 +17,7 @@ generateEffect: rocketSmokeLarge
 consumes:{
       liquids:{
     liquids:[
-      hydrogen/0.1
+      hydrogen/0.3
     ]
   }
 }
