@@ -1,0 +1,102 @@
+type: flying
+name: Omega
+description: Defends the Network core from enemies. Builds structures.
+speed: 4.05
+accel: 0.125
+drag: 0.0625
+mineSpeed: 10
+mineTier: 4
+health: 410
+itemCapacity: 110
+rotateSpeed: 2.375
+hitSize: 18
+isCounted: false
+armor: 3
+buildSpeed: 1.5
+rotateShooting: true
+commandLimit: 12
+engineOffset: 8
+flying: true
+weapons: [
+    {
+        name: missiles-core
+        reload: 40
+        x: 7
+        y: 2
+		shootY: 3
+        top: false
+        rotate: true
+        shots: 1
+        inaccuracy: 2
+        ejectEffect: none
+		shootSound: missile
+		recoil: 3
+        rotateSpeed: 8
+        bullet: {
+            type: MissileBulletType
+            damage: 20
+            splashDamage: 40
+            splashDamageRadius: 11
+			homingPower: 0.19
+			homingRange: 72
+			weaveMag: 2
+			weaveScale: 5
+            speed: 6.5
+			range: 280
+			drag: 0.015
+            width: 8
+            height: 14
+			frontColor: fff8e8
+			backColor: f9c27a
+			trailColor: ffb855
+			hitEffect: blastExplosion
+			despawnEffect: blastExplosion
+			shootEffect: shootBig
+			smokeEffect: shootSmallSmoke
+			tileDamageMultiplier: 0.1
+            lifetime: 70
+			status: blasted
+			statusDuration: 40
+        }
+    },
+    {
+        name: missiles-core
+        reload: 40.001
+        x: -7
+        y: -2
+		shootY: 3
+        top: false
+        rotate: true
+        shots: 1
+        inaccuracy: 2
+        ejectEffect: none
+		shootSound: missile
+		recoil: 3
+        rotateSpeed: 8
+        bullet: {
+            type: MissileBulletType
+            damage: 20
+            splashDamage: 40
+            splashDamageRadius: 11
+			homingPower: 0.19
+			homingRange: 72
+			weaveMag: 2
+			weaveScale: 5
+            speed: 6.5
+			range: 280
+			drag: 0.015
+            width: 8
+            height: 14
+			frontColor: fff8e8
+			backColor: f9c27a
+			trailColor: ffb855
+			hitEffect: blastExplosion
+			despawnEffect: blastExplosion
+			shootEffect: shootBig
+			smokeEffect: shootSmallSmoke
+			tileDamageMultiplier: 0.1
+            lifetime: 70
+			status: blasted
+			statusDuration: 40
+        }
+    }
